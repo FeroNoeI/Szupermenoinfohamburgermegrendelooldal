@@ -1,0 +1,78 @@
+.main{
+  margin: auto;
+  text-align: center;
+}
+
+
+body{
+  background-color: beige;
+  margin: 0 auto;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: brown;
+}
+/* 
+.table-container{
+  text-align: center;
+  justify-content: center;
+} */
+
+.hatter{
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  /* height: 1000px;
+  background-image: url(/Szupermenoinfohamburgermegrendelooldal/img/ChatGPT\ Image\ 2025.\ okt.\ 3.\ 11_21_06.png);
+  background-repeat: no-repeat; */
+}
+.hatter{
+  width: 100%;
+  height: 600px;
+}
+
+.ketszoveg{
+  color: white;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.akcio-container{
+  width: 90%;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.akcio{
+  float: left;
+  width: 28.3%;
+  margin: 1%;
+  background-color: brown;
+  color: antiquewhite;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 2px, 4px, 12px, #000000;
+  font-size: 22px;
+  min-height: 150px;
+}
+
+.akcio-img{
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+  box-shadow: 2px, 4px, 12px, #000000;
+  margin-top: 15px; 
+  margin-bottom: 15px; 
+}
