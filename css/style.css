@@ -50,15 +50,16 @@ a:hover{
 }
 
 .akcio-container{
-  width: 90%;
-  margin: 30px auto;
-  overflow: hidden;
+  width: 100%;
+  /* margin: 30px; */
+  /* overflow: hidden; */
+  padding-left: 50px;
 }
 
 .akcio{
   float: left;
   width: 28.3%;
-  margin: 1%;
+  margin: 1.5%;
   background-color: brown;
   color: antiquewhite;
   border-radius: 15px;
@@ -75,4 +76,16 @@ a:hover{
   box-shadow: 2px, 4px, 12px, #000000;
   margin-top: 15px; 
   margin-bottom: 15px; 
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;}
+
+.clear-fix{
+  clear: both;
+}
+
+.cimszoveg{
+  margin-bottom: 10px;  
 }
