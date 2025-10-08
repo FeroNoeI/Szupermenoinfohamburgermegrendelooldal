@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rendeles</title>
+  <link rel="stylesheet" href="lib/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+  <img class="hatter" src="img/header.png" alt="kiscica">
+</header>
+<div class="main">
+  <ul class="navbar">
+    <a href="index.html">Főmenü</a>
+    <a href="products.html">Étlap</a>
+    <a href="about.html">Elérhetőség</a>
+    <a href="rendeles.html">Rendeles</a>
+  </ul> 
+</div>
+  <div class="container"> 
+    <form>
+      <legend>Rendelj csodas hamburgert a SzuperMenoInfoHamburgerben</legend>
+      <div>
+        <label for="name">Név</label>
+        <input type="text" id="name" placeholder="Add meg a neved!" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Add meg az email cimed!" name="email" required>
+      </div>
+            <div>
+        <label for="address">Cim</label>
+        <input type="text" id="address" placeholder="Add meg a cimed!" name="address" required>
+      </div>
+      <div>
+        <label for="text">Teljes név</label>
+        <textarea name="text" id="text" rows="5" placeholder="Megjegyzes"></textarea>
+      </div>
+      <span>Extra feltet:</span>
+      <div>
+        <input type="radio" name="Extra" id="nothing" value="0" checked>
+        <label for="nothing" id="Extra">Nem kérek</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="bacon" value="290">
+        <label for="bacon">Extra Bacon (+290Ft)</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="cheese" value="290">
+        <label for="cheese">Extra sajt (+290)</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="egg" value="390">
+        <label for="egg">Főt tojás (+390)</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="onion" value="390">
+        <label for="onion">Piritott hagyma (+390)</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="onion-circy" value="490">
+        <label for="onion-circy">Hagymakarikák (+490)</label>
+      </div>
+      <div>
+        <input type="radio" name="Extra" id="dublemeet" value="1500">
+        <label for="dublemeet">Dupla hus (+1500)</label>
+      </div>
+      <div>
+        <label for="saurce">Szosz:</label>
+        <select name="saurce" id="saurce">
+          <option value="0">semmi</option>
+          <option value="190">ketchup</option>
+          <option value="190">Majonéz</option>
+          <option value="190">BQQ</option>
+        </select>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

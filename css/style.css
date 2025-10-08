@@ -89,3 +89,34 @@ a:hover{
 .cimszoveg{
   margin-bottom: 10px;  
 }
+
+.footer {
+  background: #1a1a1a;
+  color: #fff;              
+  padding: 20px;       
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.footer-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
