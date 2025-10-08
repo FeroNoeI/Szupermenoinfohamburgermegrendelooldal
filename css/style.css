@@ -47,7 +47,20 @@ table{
 
 .akcio{
   float: left;
-  width: 28.3%;
+  width: 20%;
+  margin: 2%;
+  background-color: brown;
+  color: rgb(212, 189, 159);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 2px, 4px, 12px, #000000;
+  font-size: 22px;
+  min-height: 150px;
+}
+
+.akcio:hover{
+  float: left;
+  width: 25%;
   margin: 1.5%;
   background-color: brown;
   color: antiquewhite;
@@ -57,6 +70,9 @@ table{
   font-size: 22px;
   min-height: 150px;
 }
+/* .aside{
+  background-color: blue;
+} */
 
 .akcio-img{
   width: 100%;
@@ -69,7 +85,8 @@ table{
 
 .grid-container{
   display: grid;
-  grid-template-columns: 2fr 8fr 2fr;}
+  grid-template-columns: 1fr 10fr 1fr;
+}
 
 .clear-fix{
   clear: both;
@@ -136,4 +153,23 @@ a:hover{
 
 .Fo-cim{
   margin: 25px 0px 25px ;
+}
+
+.p-szoveg{
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.Tgrid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tb-head{
+  padding: 10px;
+}
+
+.About-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }

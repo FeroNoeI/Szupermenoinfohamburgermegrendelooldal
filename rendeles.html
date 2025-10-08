@@ -81,8 +81,8 @@
         <label for="dublemeet">Dupla hus (+1500)</label>
       </div>
       <div>
-        <label for="saurce">Szosz:</label>
-        <select name="saurce" id="saurce">
+        <label for="sauce">Szosz:</label>
+        <select name="sauce" id="sauce">
           <option value="0">semmi</option>
           <option value="190">ketchup</option>
           <option value="190">Majonéz</option>
@@ -95,7 +95,8 @@
       </div>
       </fieldset>
       <div>
-        <input type="button" value="Rendelés leadása">Ár <span>1200</span> Ft
+        <p class="p-szoveg">Ár <span id="#message">1200</span> Ft</p>
+        <button onclick="sendOrderData()">Rendelés leadása</button>
       </div>
     </form>
   </div>
@@ -110,5 +111,7 @@
   </div>
 
   </footer>
+
+  <script src="js/rendeles.js"></script>
   </body>
 </html>
