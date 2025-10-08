@@ -20,13 +20,10 @@ a{
 }
 a:hover{
   text-decoration: underline;
-  color: brown;
+  color: orangered;
+  background-color: coral;
 }
-/* 
-.table-container{
-  text-align: center;
-  justify-content: center;
-} */
+
 
 .hatter{
   /* margin-left: auto;
@@ -120,4 +117,8 @@ a:hover{
 
 .footer-nav a:hover {
   color: #fff;
+}
+
+.navbar{
+  background-color: brown;
 }
