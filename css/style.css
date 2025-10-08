@@ -15,16 +15,6 @@ table{
 }
 
 
-
-
-.hatter{
-  /* margin-left: auto;
-  margin-right: auto; */
-  width: 100%;
-  /* height: 1000px;
-  background-image: url(/Szupermenoinfohamburgermegrendelooldal/img/ChatGPT\ Image\ 2025.\ okt.\ 3.\ 11_21_06.png);
-  background-repeat: no-repeat; */
-}
 .hatter{
   width: 100%;
   height: 600px;
@@ -136,19 +126,24 @@ table{
   padding: 10px;
 }
 
-
 .nav-hatter{
   background-color: brown;
 }
 
-a{
+.menu-nav{
   text-decoration: none;
+  font-size: 25px;
   color: black;
+  border: 3px solid;
+  border-radius: 8px;
+  background-color: beige;
 }
 a:hover{
   text-decoration: underline;
   color: orangered;
   background-color: coral;
+  border: 3px solid;
+  border-radius: 8px ;
 }
 
 .Fo-cim{
