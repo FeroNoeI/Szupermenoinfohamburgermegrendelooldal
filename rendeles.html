@@ -20,13 +20,14 @@
   </div>
 </div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  <div class="main">
-  <ul class="navbar">
-    <a href="index.html">Főmenü</a>
-    <a href="products.html">Étlap</a>
-    <a href="about.html">Elérhetőség</a>
-    <a href="rendeles.html">Rendeles</a>
-  </ul> 
-</div>
+  <div class="nav-hatter">
+    <nav class="my-navbar">
+        <a class="menu-nav" href="index.html">Főmenü</a>
+        <a class="menu-nav" href="products.html">Étlap</a>
+        <a class="menu-nav" href="about.html">Elérhetőség</a>
+        <a class="menu-nav" href="rendeles.html">Rendeles</a>
+    </nav>
+  </div> 
   <div class="container"> 
     <form>
       <fieldset>
@@ -48,6 +49,8 @@
           <textarea name="text" id="text" rows="5" placeholder="Megjegyzes"></textarea>
         </div>
       </fieldset>
+      <fieldset>
+        <legend>Termek adatai</legend>
       <span>Extra feltet:</span>
       <div>
         <input type="radio" name="Extra" id="nothing" value="0" checked>
@@ -90,6 +93,7 @@
         <label for="quantity">Mennyiseg</label>
         <input type="number" name="quantity" id="quantity" min="1" max="10">
       </div>
+      </fieldset>
       <div>
         <input type="button" value="Rendelés leadása">Ár <span>1200</span> Ft
       </div>

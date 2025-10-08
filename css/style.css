@@ -14,15 +14,7 @@ table{
   margin-right: auto;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-a:hover{
-  text-decoration: underline;
-  color: orangered;
-  background-color: coral;
-}
+
 
 
 .hatter{
@@ -119,6 +111,29 @@ a:hover{
   color: #fff;
 }
 
-.navbar{
+.my-navbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+.nav-hatter{
   background-color: brown;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: orangered;
+  background-color: coral;
+}
+
+.Fo-cim{
+  margin: 25px 0px 25px ;
 }
