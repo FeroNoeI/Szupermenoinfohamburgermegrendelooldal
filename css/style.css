@@ -49,7 +49,7 @@ table{
   float: left;
   width: 20%;
   margin: 2%;
-  background-color: brown;
+  background-color: gray;
   color: rgb(212, 189, 159);
   border-radius: 15px;
   padding: 20px;
@@ -157,7 +157,7 @@ a:hover{
 
 .p-szoveg{
   margin-top: 10px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .Tgrid-container{
@@ -171,5 +171,64 @@ a:hover{
 
 .About-grid-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+.ertekelesek{
+  background-color: burlywood;
+  height: 85%;
+  border-radius: 15px;
+}
+.hszoveg{
+  margin-top: 20px;
+}
+.nevek{
+  background-color: beige;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+.ertekeles-bal{
+  float: left;
+  width: 80%;
+  text-align: left;
+  background-color: brown;
+  border-radius: 15px;
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.ertekeles-jobb{
+  float: right;
+  width: 80%;
+  text-align: left;
+  background-color: brown;
+  border-radius: 15px;
+  margin: 20px 20px 0px 0px;
+  font-size: 20px;
+  padding: 10px;
+}
+.ertekeles-iras{
+  width: 92.5%;
+  background-color: brown;
+  border-radius: 15px;
+  margin: 20px;
+  float: inline-end;
+  text-align: left;
+  padding: 25px;
+}
+.megjegyzes{
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  width: 95%;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+.order-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+.text-area{
+  margin-top: 25px;
 }

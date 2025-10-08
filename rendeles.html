@@ -28,10 +28,14 @@
         <a class="menu-nav" href="rendeles.html">Rendeles</a>
     </nav>
   </div> 
-  <div class="container"> 
-    <form>
+  <div class="order-grid-container">
+    <div class="aside"></div>
+  
+    <div class="container"> 
+      <form>
       <fieldset>
-        <legend>Rendelj csodas hamburgert a SzuperMenoInfoHamburgerben</legend>
+        <legend>Rendelj csodas hamburgert a SzuperMenoInfoHamburgerben</legend> 
+
         <div>
           <label for="name">Név</label>
           <input type="text" id="name" placeholder="Add meg a neved!" name="name" required>
@@ -44,13 +48,13 @@
           <label for="address">Cim</label>
           <input type="text" id="address" placeholder="Add meg a cimed!" name="address" required>
         </div>
-        <div>
-          <label for="text">Teljes név</label>
-          <textarea name="text" id="text" rows="5" placeholder="Megjegyzes"></textarea>
-        </div>
       </fieldset>
+    </form>
+  </div>
+  <div>
+    <form>
       <fieldset>
-        <legend>Termek adatai</legend>
+        <legend>Rendelési extrák</legend>
       <span>Extra feltet:</span>
       <div>
         <input type="radio" name="Extra" id="nothing" value="0" checked>
@@ -93,12 +97,22 @@
         <label for="quantity">Mennyiseg</label>
         <input type="number" name="quantity" id="quantity" min="1" max="10">
       </div>
-      </fieldset>
       <div>
-        <p class="p-szoveg">Ár <span id="#message">1200</span> Ft</p>
+        <p class="p-szoveg">Ár <span id="#message">kalkulálás</span> </p>
         <button onclick="sendOrderData()">Rendelés leadása</button>
       </div>
-    </form>
+    </fieldset>
+  </form>
+</div>
+     
+      <div class="aside">
+        <div class="text-area">
+          <textarea name="text" id="text" rows="10" cols="60" placeholder="Megjegyzes"></textarea>
+        </div>
+      </div>
+      
+    
+  </div>
   </div>
 <footer class="footer">
   <div class="footer-container">
