@@ -154,6 +154,10 @@ a:hover{
   margin-top: 10px;
   font-size: 40px;
 }
+.p-k-szoveg{
+  margin-top: 10px;
+  font-size: 20px;
+}
 
 .Tgrid-container{
   display: grid;
@@ -226,4 +230,24 @@ a:hover{
 }
 .text-area{
   margin-top: 25px;
+}
+
+.arak{
+  border: 3px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border-radius: 15px;
+}
+
+.gomb{
+  border-radius: 15px;
+  background-color: burlywood;
+}
+
+.gomb:hover{
+  background-color: orangered;
+  color: white;
+  text-decoration: underline;
 }

@@ -90,16 +90,18 @@
           <option value="0">semmi</option>
           <option value="190">ketchup</option>
           <option value="190">Majonéz</option>
-          <option value="190">BQQ</option>
+          <option value="190">BBQ</option>
         </select>
       </div>
       <div>
         <label for="quantity">Mennyiseg</label>
         <input type="number" name="quantity" id="quantity" min="1" max="10">
       </div>
-      <div>
-        <p class="p-szoveg">Ár <span id="#message">kalkulálás</span> </p>
-        <button onclick="sendOrderData()">Rendelés leadása</button>
+      <div class="arak">
+        <p class="p-k-szoveg">hamburger: <span id="Burger"></span>  szosz: <span id="Szosz"></span> Extrák: <span id="azExtra"></span>   </p>
+        <p class="p-k-szoveg">Áfa: <span id="Afa"></span>  </p>
+        <p class="p-szoveg">Ár <span id="message">kalkulálás</span> </p>
+        <button onclick="sendOrderData();return false;" class="gomb">Rendelés leadása</button>
       </div>
     </fieldset>
   </form>
