@@ -19,9 +19,38 @@
     </div>
   </div>
 </div>
-    <div class="main">
-  <div class="nav-hatter">
-    <nav class="my-navbar">
+
+<section>
+  <div class="weather-text">
+    <h1>időjárás</h1>
+  </div> 
+  <div></div>
+  <div class="temperature">
+    11.3 &deg;
+  </div>
+  <div>
+    <select name="day" id="day">
+      <option value="0">Hétfő</option>
+      <option value="1">Kedd</option>
+      <option value="2">Szerda</option>
+      <option value="3">Csütörtök</option>
+      <option value="4">Péntek</option>
+      <option value="5">Szombat</option>
+      <option value="6">Vasarnap</option>
+    </select>
+    <button onclick="weatherWidget();">Mutasd!</button>
+  </div>
+  <div class="day-text">
+    Mai akcio:
+  </div>
+  <div></div>
+  <div class="min-stat"></div>
+  <div class="avg-stat"></div>
+  <div class="max-stat"></div>
+</section>
+<div class="main">
+    <div class="nav-hatter">
+      <nav class="my-navbar">
         <a class="menu-nav" href="index.html">Főmenü</a>
         <a class="menu-nav" href="products.html">Étlap</a>
         <a class="menu-nav" href="about.html">Elérhetőség</a>
@@ -40,12 +69,8 @@
     <div class="akcio">
       <h3 class="cimszoveg">Kékbálna hamburgert</h3>
       <img class="akcio-img" src="img/kékbálnahambi.png" alt="kiscica">
-      <p>Merülj bele az ízek óceánjába! 
-A Kékbálna Hamburger nem csak egy hamburger ez egy óriási élmény! Puha, friss buciban szaftos marhahúspogácsa, olvadt sajt, ropogós zöldségek és a titkos szósz, ami úgy sodor magával, mint a hullámok.
-
-És most akciósan kóstolhatod meg ezt a tengernyi finomságot!
-
-Ne hagyd, hogy elszökjön a nagy falat csapj le a Kékbálna Hamburgerre még ma!</p>
+      <p>Merülj bele az ízek óceánjába! >b  vc
+A Kékbálna Hamburger nem csak egy hamburger </p>
       
     </div>
     <div class="akcio">
@@ -87,5 +112,6 @@ Ne hagyd, hogy elszökjön a nagy falat csapj le a Kékbálna Hamburgerre még m
   </div>
 
   </footer>
+  <script src="js/weather.js"></script>
   </body>
 </html>

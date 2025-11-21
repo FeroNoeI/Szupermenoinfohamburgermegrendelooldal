@@ -251,3 +251,33 @@ a:hover{
   color: white;
   text-decoration: underline;
 }
+
+.weather-text{
+  margin-top: 0px ;
+}
+
+.day-text{
+  font-family: inter;
+  font-size: large;
+  font-size: xx-large;
+  letter-spacing: 0.05rem;
+  text-align: justify;
+  font-style: italic;
+  font-weight: 500;
+  background-color: brown;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.temperature{
+  font-family: patrickhand;
+  text-shadow: 1px, 1px #333333;
+  font-size: x-large;
+  font-weight: 700;
+  width: 130px;
+  border-radius: 5px;
+  text-align: center;
+  justify-self: end;
+  align-items: center;
+  background-color: brown;
+}
