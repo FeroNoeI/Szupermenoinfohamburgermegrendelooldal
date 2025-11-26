@@ -254,11 +254,25 @@ a:hover{
 
 .weather-text{
   margin-top: 0px ;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .day-text{
   font-family: inter;
   font-size: large;
+  font-size: xx-large;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  background-color: beige;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.day{
+  font-family: inter;
   font-size: xx-large;
   letter-spacing: 0.05rem;
   text-align: justify;
@@ -268,16 +282,57 @@ a:hover{
   border-radius: 5px;
   padding-left: 10px;
 }
-
 .temperature{
   font-family: patrickhand;
   text-shadow: 1px, 1px #333333;
   font-size: x-large;
   font-weight: 700;
   width: 130px;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   justify-self: end;
   align-items: center;
+  background-color: beige;
+}
+
+.Idoj{
   background-color: brown;
+  text-align: center;
+}
+
+.homersegletek{
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr 1fr 4fr;
+  padding: 20px;
+}
+
+.minstat{
+  background-color: beige;
+  border-radius: 15px;
+}
+
+.avgstat{
+  background-color: beige;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.maxstat{
+  background-color: beige;
+  border-radius: 15px;
+}
+
+.grid-widget{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.temp-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.akcio-w-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

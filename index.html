@@ -1,117 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>akcio</title>
   </head>
-  <body>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/header.png" class="d-block w-100 hatter" alt="...">
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/header.png" class="d-block w-100 hatter" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/header_2.png" class="d-block w-100 hatter" alt="..." />
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/header_2.png" class="d-block w-100 hatter" alt="...">
-    </div>
-  </div>
-</div>
 
-<section>
-  <div class="weather-text">
-    <h1>időjárás</h1>
-  </div> 
-  <div></div>
-  <div class="temperature">
-    11.3 &deg;
-  </div>
-  <div>
-    <select name="day" id="day">
-      <option value="0">Hétfő</option>
-      <option value="1">Kedd</option>
-      <option value="2">Szerda</option>
-      <option value="3">Csütörtök</option>
-      <option value="4">Péntek</option>
-      <option value="5">Szombat</option>
-      <option value="6">Vasarnap</option>
-    </select>
-    <button onclick="weatherWidget();">Mutasd!</button>
-  </div>
-  <div class="day-text">
-    Mai akcio:
-  </div>
-  <div></div>
-  <div class="min-stat"></div>
-  <div class="avg-stat"></div>
-  <div class="max-stat"></div>
-</section>
-<div class="main">
-    <div class="nav-hatter">
-      <nav class="my-navbar">
-        <a class="menu-nav" href="index.html">Főmenü</a>
-        <a class="menu-nav" href="products.html">Étlap</a>
-        <a class="menu-nav" href="about.html">Elérhetőség</a>
-        <a class="menu-nav" href="rendeles.html">Rendeles</a>
-    </nav>
-  </div> 
-  <h1 class="Fo-cim">Akciók</h1>
+    <div class="main">
+      <div class="nav-hatter">
+        <nav class="my-navbar">
+          <a class="menu-nav" href="index.html">Főmenü</a>
+          <a class="menu-nav" href="products.html">Étlap</a>
+          <a class="menu-nav" href="about.html">Elérhetőség</a>
+          <a class="menu-nav" href="rendeles.html">Rendeles</a>
+        </nav>
+      </div>
+      <section class="Idoj">
+        <div class="grid-widget">
+          <div class="weather-text">
+            <h1>időjárás</h1>
+          </div>
+          <div>
+            <select name="day" id="day">
+              <option value="0">Hétfő</option>
+              <option value="1">Kedd</option>
+              <option value="2">Szerda</option>
+              <option value="3">Csütörtök</option>
+              <option value="4">Péntek</option>
+              <option value="5">Szombat</option>
+              <option value="6">Vasarnap</option>
+            </select>
+            <div>
+              <button onclick="weatherWidget();">Mutasd!</button>
+            </div>
+          </div>
+          <div class="temp-grid">
+            <div></div>
+            <div></div>
+            <div class="temperature">11.3 &deg;</div>
+            <div></div>
+          </div>
+        </div>
+        <div class="akcio-w-grid">
+          <div class="day">Mai akcio:</div>
+          <div class="day-text">Mai akcio:</div>
+          <div></div>
+        </div>
+        <div class="homersegletek">
+          <div class="minstat"></div>
+          <div></div>
+          <div class="avgstat"></div>
+          <div></div>
+          <div class="maxstat"></div>
+        </div>
+      </section>
+      <h1 class="Fo-cim">Akciók</h1>
 
-  <article>
-    <h3>Kékbálna-hamburger</h3>
-    <p>Gyere és egyél nálunk egy kékbálna méretű hamburgert</p>
-  </article>
-<div class="grid-container">
-  <div class="aside"></div>
-  <div class="akcio-container">
-    <div class="akcio">
-      <h3 class="cimszoveg">Kékbálna hamburgert</h3>
-      <img class="akcio-img" src="img/kékbálnahambi.png" alt="kiscica">
-      <p>Merülj bele az ízek óceánjába! >b  vc
-A Kékbálna Hamburger nem csak egy hamburger </p>
-      
+      <article>
+        <h3>Kékbálna-hamburger</h3>
+        <p>Gyere és egyél nálunk egy kékbálna méretű hamburgert</p>
+      </article>
+      <div class="grid-container">
+        <div class="aside"></div>
+        <div class="akcio-container">
+          <div class="akcio">
+            <h3 class="cimszoveg">Kékbálna hamburgert</h3>
+            <img class="akcio-img" src="img/kékbálnahambi.png" alt="kiscica" />
+            <p>
+              Merülj bele az ízek óceánjába! >b vc A Kékbálna Hamburger nem csak
+              egy hamburger
+            </p>
+          </div>
+          <div class="akcio">
+            <h3 class="cimszoveg">Extra sültkrumpli</h3>
+            <img class="akcio-img" src="img/sultkrumpli.png" alt="kiscica" />
+            <p>
+              Válaszd ezt a szuper akciot, hogy olcsobb legyen az amugy is
+              szuper menő hamburger
+            </p>
+          </div>
+          <div class="akcio">
+            <h3 class="cimszoveg">Mojito</h3>
+            <img class="akcio-img" src="img/mojito.png" alt="kiscica" />
+            <p>
+              Íme itt a lehetőség, hogy megkostold a legfantasztikusabb koktélt
+              itt a SzuperMeno Info Hamburgerben
+            </p>
+          </div>
+          <div class="akcio">
+            <h3 class="cimszoveg">Mojito</h3>
+            <img class="akcio-img" src="img/mojito.png" alt="kiscica" />
+            <p>
+              Íme itt a lehetőség, hogy megkostold a legfantasztikusabb koktélt
+              itt a SzuperMeno Info Hamburgerben
+            </p>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+        <div class="aside"></div>
+      </div>
     </div>
-    <div class="akcio">
-      <h3 class="cimszoveg">Extra sültkrumpli</h3>
-      <img class="akcio-img" src="img/sultkrumpli.png" alt="kiscica">
-      <p>Válaszd ezt a szuper akciot, hogy olcsobb legyen az amugy is szuper menő hamburger</p>
-      
-    </div>
-    <div class="akcio">
-      <h3 class="cimszoveg">Mojito</h3>
-      <img class="akcio-img" src="img/mojito.png" alt="kiscica">
-      <p>Íme itt a lehetőség, hogy megkostold a legfantasztikusabb koktélt itt a SzuperMeno Info Hamburgerben</p>
-      
-    </div>
-    <div class="akcio">
-      <h3 class="cimszoveg">Mojito</h3>
-      <img class="akcio-img" src="img/mojito.png" alt="kiscica">
-      <p>Íme itt a lehetőség, hogy megkostold a legfantasztikusabb koktélt itt a SzuperMeno Info Hamburgerben</p>
-      
-    </div>
-    <div class="clear-fix">
 
-    </div>
-  </div>
-  <div class="aside">
-    
-  </div>
-</div>
-</div>
-
-<footer class="footer">
-  <div class="footer-container">
-    <p>&copy; 2025 Saját Weboldal. Minden jog fenntartva.</p>
-    <nav class="footer-nav">
-      <a href="/RealSzupermenoinfoproject/footer/Kapcsolat/kapcsolat.html">Kapcsolat</a>
-      <a href="/RealSzupermenoinfoproject/footer/Adatvedelem/adatvedelem.html">Adatvédelem</a>
-      <a href="#">Impresszum</a>
-    </nav>
-  </div>
-
-  </footer>
-  <script src="js/weather.js"></script>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2025 Saját Weboldal. Minden jog fenntartva.</p>
+        <nav class="footer-nav">
+          <a href="/RealSzupermenoinfoproject/footer/Kapcsolat/kapcsolat.html"
+            >Kapcsolat</a
+          >
+          <a
+            href="/RealSzupermenoinfoproject/footer/Adatvedelem/adatvedelem.html"
+            >Adatvédelem</a
+          >
+          <a href="#">Impresszum</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="js/weather.js"></script>
   </body>
 </html>

@@ -54,9 +54,9 @@ function avgtemperature(){
 }
 
 function showStat(){
-  const minStat = document.querySelector(".min-Stat")
-  const avgStat = document.querySelector(".avg-Stat")
-  const maxStat = document.querySelector(".max-Stat")
+  const minStat = document.querySelector(".minstat")
+  const avgStat = document.querySelector(".avgstat")
+  const maxStat = document.querySelector(".maxstat")
   const min = mintemperature();
   const avg = avgtemperature();
   const max = maxtemperature();
