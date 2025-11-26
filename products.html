@@ -42,6 +42,45 @@
           <a class="menu-nav" href="rendeles.html">Rendeles</a>
         </nav>
       </div>
+      <section class="Idoj">
+        <div class="grid-widget">
+          <div class="weather-text">
+            <h1>időjárás</h1>
+          </div>
+          <div>
+            <select name="day" id="day">
+              <option value="0">Hétfő</option>
+              <option value="1">Kedd</option>
+              <option value="2">Szerda</option>
+              <option value="3">Csütörtök</option>
+              <option value="4">Péntek</option>
+              <option value="5">Szombat</option>
+              <option value="6">Vasarnap</option>
+            </select>
+            <div>
+              <button onclick="weatherWidget();">Mutasd!</button>
+            </div>
+          </div>
+          <div class="temp-grid">
+            <div></div>
+            <div></div>
+            <div class="temperature">11.3 &deg;</div>
+            <div></div>
+          </div>
+        </div>
+        <div class="akcio-w-grid">
+          <div class="day">Mai akcio:</div>
+          <div class="day-text">Mai akcio:</div>
+          <div></div>
+        </div>
+        <div class="homersegletek">
+          <div class="minstat"></div>
+          <div></div>
+          <div class="avgstat"></div>
+          <div></div>
+          <div class="maxstat"></div>
+        </div>
+      </section>
       <h1 class="Fo-cim">Étel- és itallap</h1>
       <div class="Tgrid-container">
         <div class="article"></div>
@@ -262,5 +301,6 @@
         </nav>
       </div>
     </footer>
+    <script src="js/weather.js"></script>
   </body>
 </html>
